@@ -40,7 +40,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
 
 //    Recyclerview library
-    implementation 'andriodx.recyclerview:recyclerview:1.1.0'
+//    implementation 'andriodx.recyclerview:recyclerview:1.1.0'
 
 //    Glide library
     implementation 'com.github.bumptech.glide:glide:4.12.0'
@@ -49,6 +49,7 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
 //    retro gson library to parse json data from api
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
